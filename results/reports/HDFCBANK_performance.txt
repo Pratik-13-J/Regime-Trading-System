@@ -1,0 +1,36 @@
+================================================================
+  HDFCBANK  --  EMA Strategy  --  TEST SET RESULTS
+================================================================
+
+  TEST PERIOD
+  From                       : 2023-12-11
+  To                         : 2026-02-22
+  Total Trading Days         : 546
+
+  PARAMETERS  (selected by tuner on val set)
+  EMA Fast Period            : 8
+  EMA Slow Period            : 19
+  Stop Loss                  : 2.0%
+  Risk-Reward                : 1:4
+  Take Profit                : 8.0%
+  Retest Tolerance           : None
+
+  VAL SET REFERENCE  (tuner optimised on this, not test)
+  Val Sharpe                 : 5.5533
+  Val Max Drawdown           : 7.6%
+  Val Total Trades           : 10
+  Train Sharpe               : 1.2951
+
+  TEST SET RESULTS  (honest unseen evaluation)
+  Strategy Total Return      : +3.26%
+  Buy and Hold Return        : +13.01%
+  Alpha vs Buy and Hold      : -9.75%
+  Sharpe Ratio               : 1.9855
+  Max Drawdown               : 7.56%
+  Win Rate                   : 40.00%
+  Total Trades               : 5
+  Avg Profit per Trade       : +8.7742%
+  Avg Loss per Trade         : -4.4078%
+  Avg Hold Days              : 46.2 days
+
+================================================================

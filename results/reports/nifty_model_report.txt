@@ -1,0 +1,38 @@
+==============================================================
+  NIFTY REGIME PREDICTION — MODEL REPORT
+==============================================================
+  Best model selected  : RF
+  Random Forest CV F1  : 0.3654
+  XGBoost CV F1        : 0.3341
+  Label threshold      : ±0.3%
+  CV folds             : 5
+  Training samples     : 2,725
+
+  ⚠️  Use CV F1 scores to judge model quality.
+     In-sample report below shows FIT QUALITY only.
+
+  In-Sample Classification Report:
+              precision    recall  f1-score   support
+
+        DOWN       0.52      0.63      0.57       835
+    SIDEWAYS       0.51      0.61      0.55       863
+          UP       0.67      0.44      0.53      1027
+
+    accuracy                           0.55      2725
+   macro avg       0.57      0.56      0.55      2725
+weighted avg       0.57      0.55      0.55      2725
+
+
+  Top 10 Feature Importances:
+  BB_width             0.0712  ██████████████
+  ATR_pct              0.0683  █████████████
+  Stoch_K              0.0677  █████████████
+  Return_5d            0.0667  █████████████
+  BB_pct               0.0593  ███████████
+  Volatility_10        0.0581  ███████████
+  Close_vs_EMA9        0.0573  ███████████
+  Return_3d            0.0558  ███████████
+  Return_1d            0.0551  ███████████
+  Close_vs_EMA21       0.0495  █████████
+
+==============================================================
