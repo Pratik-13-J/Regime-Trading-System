@@ -39,7 +39,7 @@ Data Fetching → Feature Engineering → Regime Prediction → Parameter Tuning
 ### Prerequisites
 
 ```bash
-pip install pandas numpy scikit-learn xgboost matplotlib python-dotenv
+pip install -r requirements.txt
 ```
 
 ### Setup

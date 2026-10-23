@@ -447,8 +447,8 @@ def main():
     # ── Argument parsing ─────────────────────────────────────────
     parser = argparse.ArgumentParser(
         description=(
-            "Regime-Aware EMA Trading System — Full Pipeline\n"
-            "Runs: NIFTY Regime Model → EMA Tuner → EMA Strategy Backtest"
+            "Regime-Aware EMA Trading System - Full Pipeline\n"
+            "Runs: NIFTY Regime Model -> EMA Tuner -> EMA Strategy Backtest"
         ),
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )

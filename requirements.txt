@@ -1,0 +1,10 @@
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+xgboost>=2.0
+matplotlib>=3.8
+python-dotenv>=1.0
+pyotp>=2.9
+smartapi-python>=1.5
+tensorflow>=2.15
+
